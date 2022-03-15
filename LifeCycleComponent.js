@@ -34,7 +34,7 @@ class LifeCycle extends Component {
 
   shouldComponentUpdate() {
     console.log(`${Math.floor(Date.now())}. this is shouldComponentUpdate`)
-    return false
+    return true
   }
 
   componentWillUpdate() {
